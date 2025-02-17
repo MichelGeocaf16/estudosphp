@@ -1,0 +1,50 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* menuexercicios */
+
+h1{
+    color: blue;
+    text-align: center;
+}
+
+section.menuexercicios{
+    margin-top: 30px;
+    padding: 20px;
+}
+section.menuexercicios ul  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+section.menuexercicios li{
+    list-style: none;
+    margin-right: 10px;
+}
+
+section.menuexercicios a{
+    text-decoration: none;
+    background-color: blue;
+    padding: 16px 8px;
+    border-radius: 8px;
+    color: #fff;
+}
+
+/* text */
+
+.text{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.text p {
+    margin-top: 30px;
+}
